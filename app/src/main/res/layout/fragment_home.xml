@@ -1,0 +1,778 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <include
+        android:id="@+id/Toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="79dp"
+        android:contentDescription="Deskripsi untuk ScrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/yangtelah"
+                            android:layout_marginStart="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yang Telah \nlama Pergi"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="24dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gratis"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="24dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/lorong"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lorong \nWaktu"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.15.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/rumahkost"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rumah Kost \nBeringin"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.21.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/lorong"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lorong \nWaktu"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.35.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/pandawa"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pandawa \nTujuh"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.15.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disarankan Untuk Anda"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/lorong"
+                            android:layout_marginStart="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lorong \nWaktu"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="24dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gratis"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="24dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/bisnis"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara \nMemulai Bis.."
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.15.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/bulan"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bulan \nMemyaru..."
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.21.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/badai"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Si Anak \nBadai"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.35.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/pandawa"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pandawa \nTujuh"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.15.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pendidikan"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/berbicara"
+                            android:layout_marginStart="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Berbicara \nDengan..."
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="24dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gratis"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="24dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/meningkatkan"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Meningkatkan \nHarga Diri"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.15.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/semua"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Semua \nAdalah..."
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.21.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/psychology"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Manipulation \nDark..."
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.35.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/laut"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Laut \nBercerita"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.15.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Komik"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/lorong"
+                            android:layout_marginStart="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lorong \nWaktu"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="24dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gratis"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="24dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/bisnis"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara \nMemulai Bis.."
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.15.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/bulan"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bulan \nMemyaru..."
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.21.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/badai"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Si Anak \nBadai"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.35.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/pandawa"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pandawa \nTujuh"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.15.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Koleksi Sastra dan Fiksi"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="25dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/berbicara"
+                            android:layout_marginStart="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Berbicara \nDengan..."
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="24dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gratis"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="24dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/meningkatkan"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Meningkatkan \nHarga Diri"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.15.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/semua"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Semua \nAdalah..."
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.21.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/psychology"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Manipulation \nDark..."
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.35.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="88dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/laut"
+                            android:layout_marginStart="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Laut \nBercerita"
+                            android:layout_marginTop="135dp"
+                            android:layout_marginStart="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.15.000"
+                            android:layout_marginTop="175dp"
+                            android:layout_marginStart="14dp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

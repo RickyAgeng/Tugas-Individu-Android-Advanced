@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PeminjamanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvBookTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul Buku"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"/>
+
+    <Button
+        android:id="@+id/btnBorrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pinjam Buku"
+        android:layout_below="@+id/tvBookTitle"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="136dp"/>
+
+
+</FrameLayout>

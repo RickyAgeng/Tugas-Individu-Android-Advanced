@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AkunFragment"
+    android:background="@drawable/bgprofil">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:text="Akun Fragment"-->
+<!--        android:textSize="36sp"-->
+<!--        android:textColor="@color/kuning"-->
+<!--        android:gravity="center"/>-->
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_arrowback_white"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="60dp"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fotoprofil"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jamaludin"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="240dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jamaludin@gmail.com"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="265dp"
+        android:gravity="center"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/sub_cardprofil"
+        android:layout_marginTop="340dp"/>
+    
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/edu"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="360dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Education Information"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="60dp"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/sub_cardprofil"
+        android:layout_marginTop="415dp"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/pay"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="435dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment History"
+        android:layout_marginTop="435dp"
+        android:layout_marginStart="60dp"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/sub_cardprofil"
+        android:layout_marginTop="490dp"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/log"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="510dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="60dp"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+
+
+
+
+</FrameLayout>
